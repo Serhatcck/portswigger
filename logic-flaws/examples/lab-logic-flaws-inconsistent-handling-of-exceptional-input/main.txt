@@ -1,0 +1,7 @@
+Buradaki mantık verinin kayıt edilirken 256 karaktere kadar kayıt ediliyor olması
+Admin paneline erişebilmemiz için bizden istedikleri tek şey @dontwannacry.com uzantılı bir mail adresi
+fakat bu mail adresi bilgisi bizde tutulmuyor o yüzden:
+very-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stri@dontwannacry.com.exploit-ac501f241fd93778c0c76ca4011500f2.web-security-academy.net
+şeklinde bir payload gönderdiğimiz zaman gelen doğrulama linki bizim mail kutumuza düşüyor fakat yukarıdaki mail adresi kayıt edilirken ilk 256 karakter kayıt ediliyor yani 
+very-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stringvery-long-stri@dontwannacry.com
+şeklinde kayıt oluyor ve bu da bizim admin paneline girmemizi sağlıyor
