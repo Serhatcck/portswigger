@@ -1,0 +1,3 @@
+Brute Force yaparken ip kısıtlamasını bypass etmek için :
+X-Forwarded-For HTTP header bilgisini kullanırız
+http://webguvenligi.org/dergi/XForwardedForHTTPBasligininKotuyeKullanimi-Ekim2009-SertanKolat.pdf
